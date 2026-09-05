@@ -1,0 +1,42 @@
+name: Import repository package
+
+on:
+  push:
+    paths:
+      - 'repo_bundle.b64'
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Decode and unpack repository bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          base64 -d repo_bundle.b64 > /tmp/repo.zip
+          rm -rf /tmp/unpack
+          mkdir -p /tmp/unpack
+          unzip -q /tmp/repo.zip -d /tmp/unpack
+          cp -a /tmp/unpack/operational-adaptation-hospital-utilization/. .
+          rm -f repo_bundle.b64
+          rm -f .github/workflows/import-repository.yml
+
+      - name: Commit imported repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+          else
+            git commit -m 'Import complete reproducibility package'
+            git push
+          fi
