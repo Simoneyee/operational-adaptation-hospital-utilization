@@ -1,12 +1,15 @@
 # Operational Adaptation and Capacity-Relative Hospital Utilization During Epidemic Surges
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22366795.svg)](https://doi.org/10.5281/zenodo.22366795)
+
 Analysis code and reproducibility materials supporting the manuscript:
 
 > **Operational Adaptation and Capacity-Relative Hospital Utilization During Epidemic Surges: Mechanistic and National U.S. Evidence**
 
 **Author:** Wenbo Tang  
 **Affiliation:** School of Finance and Statistics, Hunan University  
-**ORCID:** 0009-0005-9513-1963
+**ORCID:** 0009-0005-9513-1963  
+**Archived release DOI:** https://doi.org/10.5281/zenodo.22366795
 
 ## Overview
 
@@ -104,7 +107,11 @@ See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) for environment setup, 
 
 ## Citation
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). A versioned DOI can be added after archiving a GitHub release in Zenodo.
+The archived manuscript reproducibility release is permanently available at:
+
+**DOI:** https://doi.org/10.5281/zenodo.22366795
+
+Citation metadata are also provided in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
