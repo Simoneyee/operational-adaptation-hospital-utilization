@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Operational Adaptation and Capacity-Relative Hospital Utilization During Epidemic Surges: Analysis Code"
+type: software
+authors:
+  - family-names: Tang
+    given-names: Wenbo
+    orcid: "https://orcid.org/0009-0005-9513-1963"
+year: 2026
+license: MIT
+repository-code: "https://github.com/Simoneyee/operational-adaptation-hospital-utilization"
+keywords:
+  - epidemic response
+  - hospital capacity
+  - absorptive capacity
+  - hospital utilization
+  - double machine learning
+  - public health preparedness
