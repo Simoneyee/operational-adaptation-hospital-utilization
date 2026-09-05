@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw / restricted / large data
+data/
+01_raw/
+02_clean/
+*.parquet
+*.feather
+*.sav
+*.dta
+*.sas7bdat
+
+# Local paths / secrets
+.env
+*.key
+*.pem
+
+# Temporary outputs
+tmp/
+temp/
