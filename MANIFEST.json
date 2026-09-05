@@ -1,0 +1,110 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "a7d4978b7edcb31d86841bffd9be619f28b73b171a604e1ff347f10248982f40",
+      "bytes": 308
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "b13d89c7fcede0302bc01ca39d27bdae1b6c6041ea8064641f4406d711b3c2af",
+      "bytes": 609
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "a3c5e4c5c1c3e8cf16fba89a67da12b9f12abe3f944f5e96b5b74afe8bf7f8dc",
+      "bytes": 1067
+    },
+    {
+      "path": "README.md",
+      "sha256": "27107cae715bf5ee06b1f2cca5e5e66af3a82e582a801410ffc3c72deaf3beaa",
+      "bytes": 4536
+    },
+    {
+      "path": "analysis/core/01_empirical_upgrade_pipeline.py",
+      "sha256": "550920882bb6e3dd67911c827dc92b3323c139c3b412120d5caf1738841a873c",
+      "bytes": 20335
+    },
+    {
+      "path": "analysis/core/02_log_response_state_bridge.py",
+      "sha256": "c2552ce806945826bf0faf840fefe82a31d471a5ba7f61b10c836bcf5fefffd0",
+      "bytes": 24105
+    },
+    {
+      "path": "analysis/core/03_pretrend_adjusted_change.py",
+      "sha256": "c0bc893468c89edb7cb59effc360b44846f84244a84a6b11f7b886438a6c61d1",
+      "bytes": 14612
+    },
+    {
+      "path": "analysis/core/04_orthogonal_dml.py",
+      "sha256": "86e0691e7d797dec914938822b9ba87bcffff213ce9998bd57e813cd221cbdf9",
+      "bytes": 25988
+    },
+    {
+      "path": "analysis/core/05_mechanism_heterogeneity.py",
+      "sha256": "701cd284f403ddfcc0f2b35526fcb82b26dcace87a29e6a157ae8f53bf1f7edc",
+      "bytes": 28453
+    },
+    {
+      "path": "analysis/core/06_methodological_validation.py",
+      "sha256": "df0909b05e0b07de1f635078f16087ff9c4791d86bd48a89915fe7732a3d7c6c",
+      "bytes": 16903
+    },
+    {
+      "path": "analysis/core/07_denominator_independent.py",
+      "sha256": "1123ed465ae7acd817574633ecda4d744c0ffc6ba390cb0148feb27dccc6f251",
+      "bytes": 16991
+    },
+    {
+      "path": "analysis/core/08_temporal_preonly_sensitivity.py",
+      "sha256": "33a1d0f30a7062794bcc4e12398df464f8b664a136762e3c838734e12730c2e2",
+      "bytes": 23234
+    },
+    {
+      "path": "analysis/robustness/01_objective_quality_state_bridge.py",
+      "sha256": "8f6bd2c54f6c207982bb231086ee0eec6cf24bb3c2afb4f0d55f96aa23bab59f",
+      "bytes": 25132
+    },
+    {
+      "path": "analysis/robustness/02_episode_fe_dynamic.py",
+      "sha256": "59045936106d6aab7a4d30815768ed15e1338661b3355e747b92aae8fd2aa075",
+      "bytes": 12918
+    },
+    {
+      "path": "analysis/secondary/01_hsa_mortality.py",
+      "sha256": "ff45ac3b42e10a11e7710d4ed695c22cbcf58c3555a4cae8772fbbb984b87795",
+      "bytes": 30337
+    },
+    {
+      "path": "analysis/secondary/02_arnorth_external_validation.py",
+      "sha256": "1b74dea754959b15fe6997c39148cba77ceb7bb99782d7a69a45c2bf7e9bb6d5",
+      "bytes": 36102
+    },
+    {
+      "path": "docs/DATA_SOURCES.md",
+      "sha256": "f070d7fb9e2d77c55c088908baf0d94260302886672243955ec734a618e0d310",
+      "bytes": 1315
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "10644d0f9f5883d46505d96db1afc16e73f062385dfcd48c3c3e5fd946ca4eb2",
+      "bytes": 2716
+    },
+    {
+      "path": "docs/VARIABLE_NOTES.md",
+      "sha256": "9dad13dc3d35b3a7237a28ff7bd6f60d0863e76c7531bdcea0078545511ae0e2",
+      "bytes": 1289
+    },
+    {
+      "path": "environment.yml",
+      "sha256": "414d3a279a4c77e7842e2680eb72ed4a76e3af903e6b3f98b0c64cbd9c6f81af",
+      "bytes": 235
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "8182ce4d7ac96e3e7235168b9edae80eed26cb7cac7cdd4b3608dff36fedebf9",
+      "bytes": 131
+    }
+  ],
+  "missing_source_files": []
+}
